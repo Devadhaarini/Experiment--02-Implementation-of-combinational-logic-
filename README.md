@@ -49,17 +49,8 @@ Once Waveform is created Right Click on the Input/Output Panel > " Insert Node o
 Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 ## Program:
 
-module ex_02(a,b,c,d,f1);
-input a,b,c,d;
-output f1;
-wire x1,x2,x3,x4,x5;
-assign x1=(~a)&(~b)&(~c)&(~d);
-assign x2=(a) &(~c)&(~d);
-assign x3=(~b)& (c) &(~d);
-assign x4=(~a)& (b) & (c) & (d);
-assign x5=(b) & (~c)&(d);
-assign f1=x1|x2|x3|x4|x5;
-endmodule
+![WhatsApp Image 2023-12-02 at 12 18 18_5df50943](https://github.com/Devadhaarini/Experiment--02-Implementation-of-combinational-logic-/assets/145796552/65f97fa9-9741-4c92-8c8a-6769afc2358d)
+
 
 ## RTL realization
 
